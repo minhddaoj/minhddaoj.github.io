@@ -16,6 +16,7 @@ section > .container {
   font-family: "Inter", sans-serif;
 }
 .section-title {
+  padding-top: 20px;
   font-size: 32px;
 }
 /* Header */
@@ -77,6 +78,9 @@ section > .container {
 
 /* Main */
 /* Infomation */
+#about {
+  padding: 20px 50px;
+}
 .infomation h1 {
   font-size: 24px;
   color: #868e96;
@@ -84,7 +88,9 @@ section > .container {
 .infomation p {
   line-height: 1.6;
 }
-
+.info-target {
+  padding: 0 40px;
+}
 /* Job */
 .kinhnghiem,
 .hocvan,
@@ -141,12 +147,15 @@ section > .container {
 }
 
 /* <!-- Certificate --> */
-
-.certificate .section-title {
-  font-size: 22px;
+.certificate {
+  padding: 0 40px;
 }
+.certificate .card {
+  border: none;
+}
+
 .content1 {
-  border-right: 2px solid #d6c08d;
+  border-right: 2px solid #d6c08d !important;
 }
 .cont--1,
 .cont-1 {

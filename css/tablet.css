@@ -9,6 +9,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .info-target {
+    padding: 0 40px;
+  }
   .project td {
     font-size: 12px;
   }

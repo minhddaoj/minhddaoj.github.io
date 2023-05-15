@@ -5,6 +5,9 @@
   .container-fluid {
     padding: auto 0 !important;
   }
+  .row {
+    margin: 0 !important;
+  }
   .col-md-6,
   .col-lg-4 {
     padding: 10px;
